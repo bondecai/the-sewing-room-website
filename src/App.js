@@ -4,12 +4,14 @@ import { LinkContainer } from "react-router-bootstrap";
 import { Route, BrowserRouter as Router, useRouteMatch, Link, Routes } from "react-router-dom";
 
 import Navigation from './Navigation'
-import Home from './Home'
-import About from './About'
+import Footer from './Footer'
 
 function App() {
     return (
-        <Navigation />
+        <React.Fragment>
+            <Navigation />
+            <Footer />
+        </React.Fragment>
     )
 }
 

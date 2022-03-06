@@ -9,10 +9,10 @@ import Home from './Home'
 function Navigation() {
     return (
         <Router>
-        <Navbar bg="dark" variant="dark">
+        <Navbar bg="light" variant="light">
             <Container>
                 <Navbar.Brand href="home">The Sewing Room</Navbar.Brand>
-                <Nav className="me-auto">
+                <Nav className="me-auto" variant="pills">
                     <Nav.Link as={Link} to="/">Home</Nav.Link>
                     <Nav.Link as={Link} to="/about">About Us</Nav.Link>
                 </Nav>
